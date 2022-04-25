@@ -92,6 +92,7 @@ All images are available at https://hub.docker.com/r/lyt1123/open_im_server
 4. Start docker-compose with one click(Docker automatically pulls all images)
 
    ```
+   cd Open-IM-Server
    docker-compose up -d
    ```
 
@@ -99,6 +100,7 @@ All images are available at https://hub.docker.com/r/lyt1123/open_im_server
 
    ```
    ./docker_check_service.sh 
+   ./check_all.sh
    ```
 
    ![OpenIMServersondockerpng](https://github.com/OpenIMSDK/Open-IM-Server/blob/main/docs/Open-IM-Servers-on-docker.png)
@@ -154,4 +156,4 @@ All images are available at https://hub.docker.com/r/lyt1123/open_im_server
 
 ## License
 
-Open-IM-Server is under the Apache 2.0 license. See the [LICENSE](https://github.com/OpenIMSDK/Open-IM-Server/blob/main/LICENSE) file for details.
+Open-IM-Server is under the Apache 2.0 license. See the [LICENSE](https://github.com/OpenIMSDK/Open-IM-Server/blob/main/LICENSE) file for details
